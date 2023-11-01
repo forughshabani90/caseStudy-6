@@ -7,19 +7,14 @@ public class MetodDemo {
     public static void main(String[] args) {
         int n1;
         int n2;
-        System.out.println(sum(20,30));
+        System.out.println(sum(20, 30));
         int i;
         int result;
-    SumFor sumFor=new SumFor();
-      result=sumFor.SumFor(10,20);
+        SumFor sumFor = new SumFor();
+        result = sumFor.sumFor(10, 20);
         System.out.println(result);
-        MaxTest max=new MaxTest();
-        result = max.Max(90,50);
+        MaxTest max = new MaxTest();
+        result = max.Max(90, 50);
         System.out.println(result);
-
-
-
-
-
     }
 }

@@ -2,8 +2,8 @@ public class TestVoidMetod {
     public static void main(String[] args) {
         System.out.println("this grade is : ");
         PrintGrade(89);
-        Gcd gcd = new Gcd();
-       int resul=gcd.Gcd(6,9);
+        Gcd k = new Gcd();
+       int resul=k.gcd(6,9);
         System.out.println(resul);
     }
 

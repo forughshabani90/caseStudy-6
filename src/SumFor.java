@@ -1,13 +1,13 @@
-import java.beans.PropertyEditorSupport;
-
 public class SumFor {
-    public static int SumFor(int n1 , int n2) {
-        int result=0;
-        for (int i = 20;  i <= 30; i++)
-          result+=i;
+    public  int sumFor(int n1, int n2) {
+        int result = 0;
+        for (int i = n1; i <= n2; i++)
+            result += i;
         return result;
+    }
 
+    public  String sumFor(int a){
 
-
+        return "ee";
     }
 }
